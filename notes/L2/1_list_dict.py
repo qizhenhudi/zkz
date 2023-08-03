@@ -45,5 +45,5 @@ dict_c = {
 # 8 下面两个字符串要求生成一个列表,后面一个字符串的字符依次插到前一个的后面
 str_a = "qizhenhudi"
 str_b = "zkz"
-# 生成的列表是  [q,z,i,k,z,z,h,z,e,k,n,z,h,z,u,k,d,z,i,k]
+# 生成的列表是  [q,z,i,k,z,z,h,z,e,k,n,z,h,z,u,k,d,z,i,z]
 
