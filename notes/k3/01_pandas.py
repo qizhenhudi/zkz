@@ -75,3 +75,10 @@ print(filtered_data)
 filtered_data = df.iloc[1:2, [0, 1]]
 # filtered_data = df.iloc[1:2, ['name', 'age']]  报错 .iloc使用整数索引来选择行和列
 print(filtered_data)
+
+#################  for循环处理数据 ################
+#  对year_2022的数据进行处理，如果是能被2整除的就乘以2
+for i in range(df.shape[0]):
+    if df.loc[i, "year_2022"] % 2 == 0:
+        df.loc[i, "year_2022"] = df.loc[i, "year_2022"] * 2
+print(df)
