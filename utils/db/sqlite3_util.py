@@ -1,6 +1,6 @@
 import sqlite3
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine  # pip install SQLAlchemy==1.4.47
 
 
 class Sqlite3Tool():

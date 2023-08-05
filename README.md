@@ -12,6 +12,7 @@
 - notes 里面的k1,k2等表示第几次分享内容
 - datas 存放数据目录
 - utils 一些通用函数
+- dbs 存放数据库相关文件
 
 
 
@@ -22,4 +23,6 @@
 - pandas==1.4.2
 - Flask==2.2.2
 - matplotlib==3.4.1
+- streamlit==1.24.0
+- SQLAlchemy==1.4.47
 

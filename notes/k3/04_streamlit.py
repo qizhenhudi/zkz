@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st  # pip install streamlit==1.24.0
 
 # 假设后台的数据
 data = [
