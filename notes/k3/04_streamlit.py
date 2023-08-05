@@ -1,3 +1,9 @@
+# 运行本应用方式
+# windows的话 win+R 进入cmd，切换到这个文件所在的目录下
+# 然后 conda activate python38 或者其他自己的虚拟环境名称，进入虚拟环境，然后执行下面
+# streamlit run 04_streamlit.py
+# notes：若没有安装streamlit 请 pip install streamlit==1.24.0
+
 import streamlit as st  # pip install streamlit==1.24.0
 
 # 假设后台的数据
