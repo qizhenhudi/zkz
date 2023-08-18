@@ -1,8 +1,8 @@
 import random
 
 
-# y = wx + b
-# y_hat 是真实标签
+# y = wx + b 
+# y_hat 是真实数据
 # loss = (y - y_hat)^2 = (wx+b - y_hat)^2
 # loss对 w = 2 * x * (wx + b - y_hat)
 # loss对 b = 2  * (wx + b - y_hat)
