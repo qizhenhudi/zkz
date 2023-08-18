@@ -25,4 +25,5 @@
 - matplotlib==3.4.1
 - streamlit==1.24.0
 - SQLAlchemy==1.4.47
+- torch==1.13.1
 
